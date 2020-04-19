@@ -37,13 +37,13 @@
 	};
 
 
-	var counter = function() {
-		$('.js-counter').countTo({
-			 formatter: function (value, options) {
-	      return value.toFixed(options.decimals);
-	    },
-		});
-	};
+	// var counter = function() {
+	// 	$('.js-counter').countTo({
+	// 		 formatter: function (value, options) {
+	//       return value.toFixed(options.decimals);
+	//     },
+	// 	});
+	// };
 
 
 	var counterWayPoint = function() {
@@ -268,28 +268,28 @@
 
 	};
 
-	var owlCrouselFeatureSlide = function() {
-		$('.owl-carousel').owlCarousel({
-			animateOut: 'fadeOut',
-		   animateIn: 'fadeIn',
-		   autoplay: true,
-		   loop:true,
-		   margin:0,
-		   nav:true,
-		   dots: false,
-		   autoHeight: true,
-		   items: 1,
-		   navText: [
-		      "<i class='icon-arrow-left3 owl-direction'></i>",
-		      "<i class='icon-arrow-right3 owl-direction'></i>"
-	     	]
-		})
-	};
+	// var owlCrouselFeatureSlide = function() {
+	// 	$('.owl-carousel').owlCarousel({
+	// 		animateOut: 'fadeOut',
+	// 	   animateIn: 'fadeIn',
+	// 	   autoplay: true,
+	// 	   loop:true,
+	// 	   margin:0,
+	// 	   nav:true,
+	// 	   dots: false,
+	// 	   autoHeight: true,
+	// 	   items: 1,
+	// 	   navText: [
+	// 	      "<i class='icon-arrow-left3 owl-direction'></i>",
+	// 	      "<i class='icon-arrow-right3 owl-direction'></i>"
+	//      	]
+	// 	})
+	// };
 
 	// Document on load.
 	$(function(){
 		fullHeight();
-		counter();
+		// counter();
 		counterWayPoint();
 		contentWayPoint();
 		burgerMenu();
@@ -303,7 +303,7 @@
 		mobileMenuOutsideClick();
 		sliderMain();
 		stickyFunction();
-		owlCrouselFeatureSlide();
+		// owlCrouselFeatureSlide();
 	});
 
 
